@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(240, 1%, 17%);
+}
+
+.audio-button {
+    width: min(100vh, 100vw); 
+    height: min(100vh, 100vw);
+    border-radius: 50%;
+    background-image: url('button-image.png'); 
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
